@@ -1,29 +1,22 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./index.css";
 import Home from "./Home";
 import About from "./About";
 import Freeclass from "./Freeclass";
-
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Home></Home>,
-  },
-  {
-    path: "/About",
-    element: <About></About>,
-  },
-  {
-    path: "/FreeClass",
-    element: <Freeclass></Freeclass>,
-  },
-]);
+import OurTour from "./OurTour";
 
 ReactDOM.render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/FreeClass" element={<Freeclass />} />
+        <Route path="/OurTour" element={<OurTour />} />
+      </Routes>
+    </Router>
   </React.StrictMode>,
   document.getElementById("root")
 );

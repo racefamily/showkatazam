@@ -16,7 +16,7 @@ const NavBar = () => {
             </div>
             <div className="flex-none">
                 <ul className="menu menu-horizontal px-1 text-2xl">
-                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/" className="btn btn-warning">Home</Link></li> {/* Home button */}
                 </ul>
             </div>
             <div className="social-icons flex items-center">

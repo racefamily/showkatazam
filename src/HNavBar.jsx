@@ -18,8 +18,17 @@ const NavBar = () => {
                 </div>
             </div>
             <div className="flex-none">
-                <ul className="menu menu-horizontal px-1 text-2xl">
-                    <li><Link to="/FreeClass">Free Class</Link></li>
+                <ul className="gap-5  menu menu-horizontal px-1 text-2xl">
+                    <li>
+                        <Link to="/FreeClass" className="btn btn-warning">
+                            Free Class
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/OurTour" className="btn btn-warning">
+                            Our Event
+                        </Link>
+                    </li>
                 </ul>
             </div>
             <div className="social-icons flex items-center">
