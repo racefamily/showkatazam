@@ -9,7 +9,7 @@ const Footer = () => {
 
   return (
     <footer className="footer p-10 bg-purple-950 text-neutral-content relative">
-      <img src="https://imgur.com/FZH6ECa.png" alt="ACME Industries Ltd." className="w-12 h-12 mb-4 absolute inset-x-0 top-1/2 transform -translate-y-1/2 mx-auto" />
+      <img src="https://imgur.com/FZH6ECa.png" alt="ACME Industries Ltd." className="w-12 h-12" />
       <aside className="text-center lg:text-left">
         <p>Race Family<br/>01869-296343</p>
       </aside> 

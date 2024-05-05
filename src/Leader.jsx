@@ -51,6 +51,13 @@ const Leader = () => {
             image: "https://imgur.com/8Km40Py.jpg",
             facebookId: "Sakhawathossain6"
         }
+        ,
+        {
+            name: "রোকাইয়া জাহান",
+            position: "Senior Sales Officer",
+            image: "https://imgur.com/16szPOK.jpg",
+            facebookId: "Rukiajahan0"
+        }
         // Add more leaders as needed
     ];
 
