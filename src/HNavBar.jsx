@@ -12,8 +12,8 @@ const NavBar = () => {
             <a href="https://www.facebook.com/profile.php?id=61559198431989" target="_blank" rel="noopener noreferrer" className="mx-2">
                     <img src={Logo} alt="Race Family" className="w-6 h-6" />
                 </a>
-                <h1 className='text-3xl'>Race Family</h1>
-            </div>
+                <h1 className='text-3xl'>Race Family <br /> 01869296343 </h1>
+                </div>
             <div className="flex-none">
                 <ul className="menu menu-horizontal px-1 text-2xl">
                     <li><Link to="/FreeClass">Free Class</Link></li>

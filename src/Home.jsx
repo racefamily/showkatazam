@@ -9,8 +9,11 @@ const Home = () => {
     return (
         <div>
             <HNavBar></HNavBar>
+            <br />
             <Sai></Sai>
+            <br />
             <Leader></Leader>
+            <br />
             <Footer></Footer>
         </div>
     );
