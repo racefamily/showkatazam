@@ -8,9 +8,9 @@ const Footer = () => {
   const Facebookgroup = "https://www.facebook.com/groups/racefamilybd"; // ইনস্টাগ্রাম পেজের লিংক
 
   return (
-    <footer className="footer p-10 bg-purple-950 text-neutral-content">
+    <footer className="footer p-10 bg-purple-950 text-neutral-content relative">
+      <img src="https://imgur.com/FZH6ECa.png" alt="ACME Industries Ltd." className="w-12 h-12 mb-4 absolute inset-x-0 top-1/2 transform -translate-y-1/2 mx-auto" />
       <aside className="text-center lg:text-left">
-        <img src="https://imgur.com/FZH6ECa.png" alt="ACME Industries Ltd." className="w-12 h-12 mb-4" />
         <p>Race Family<br/>01869-296343</p>
       </aside> 
       <nav className="text-center">
