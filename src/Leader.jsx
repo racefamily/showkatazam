@@ -58,6 +58,97 @@ const Leader = () => {
             image: "https://imgur.com/16szPOK.jpg",
             facebookId: "Rukiajahan0"
         }
+        ,
+        {
+            name: "Abdul Malek",
+            position: "Sales Officer",
+            image: "https://imgur.com/7iLyp5m.jpg",
+            facebookId: "abdulmalek2024"
+        }
+        ,
+        {
+            name: "Mohammad Nazim Uddin",
+            position: "Sales Officer",
+            image: "https://imgur.com/BwUW8iZ.jpg",
+            facebookId: "profile.php?id=100069573125851"
+        }
+        ,
+        {
+            name: "Ali Jubair",
+            position: "Sales Officer",
+            image: "https://imgur.com/Z2hZ68P.jpg",
+            facebookId: "profile.php?id=100082329159496"
+        }
+        ,
+        {
+            name: "Habibul Islam Sayem",
+            position: "Sales Officer",
+            image: "https://imgur.com/83UmDRz.jpg",
+            facebookId: "habibulislamsayem"
+        }
+        ,
+        {
+            name: "Mohammad Morshedul Alam",
+            position: "Sales Officer",
+            image: "https://imgur.com/Z33snu2.jpg",
+            facebookId: "nbmorshed"
+        }
+        ,
+        {
+            name: "Jannatul Nayem",
+            position: "Sales Officer",
+            image: "https://imgur.com/O3uTaz5.jpg",
+            facebookId: "NayemJRitu"
+        }
+        ,
+        {
+            name: "Jannatul Naima",
+            position: "Sales Officer",
+            image: "https://imgur.com/lvFDpE8.jpg",
+            facebookId: "profile.php?id=61553987452207"
+        }
+        ,
+        {
+            name: "Md Md Imran",
+            position: "Sales Officer",
+            image: "https://imgur.com/mRiGqSk.jpg",
+            facebookId: "mdImran38"
+        }
+        ,
+        {
+            name: "Shajidul Ridoy",
+            position: "Sales Officer",
+            image: "https://imgur.com/Fmocf0c.jpg",
+            facebookId: "profile.php?id=100083633741342"
+        }
+        ,
+        {
+            name: "Rafidul Islam",
+            position: "Sales Officer",
+            image: "https://imgur.com/qxJn96W.jpg",
+            facebookId: "rafidul.islam.7545"
+        }
+        ,
+        {
+            name: "MD Sajidul Islam",
+            position: "Sales Officer",
+            image: "https://imgur.com/qRAz1YW.jpg",
+            facebookId: "sajidulislam2006"
+        }
+        ,
+        {
+            name: "Md Sultanul Arifin",
+            position: "Sales Officer",
+            image: "https://imgur.com/r2UpSLR.jpg",
+            facebookId: "mdsultanularifin2"
+        }
+        ,
+        {
+            name: "MD Omar Ohin Bhuiyan",
+            position: "Sales Officer",
+            image: "https://imgur.com/TbxtIMi.jpg",
+            facebookId: "mdomarohin.bhuiyan"
+        }
         // Add more leaders as needed
     ];
 
@@ -66,14 +157,13 @@ const Leader = () => {
         return `https://www.facebook.com/${facebookId}`;
     };
 
-    // Function to open Facebook with user ID
     const openFacebook = (facebookId) => {
         window.open(generateFacebookLink(facebookId), '_blank');
     };
 
     return (
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-            <div className="bg-violet-800 text-white sm:col-span-3 flex justify-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
+            <div className="bg-violet-800 text-white col-span-full flex justify-center">
                 <h1 className="text-5xl font-bold my-8">Our Team</h1>
             </div>
             {leaders.map((leader, index) => (
@@ -85,7 +175,6 @@ const Leader = () => {
                         <h2 className="card-title">{leader.name}</h2>
                         <p>{leader.position}</p>
                         <div className="card-actions">
-                            {/* Facebook button with onClick event */}
                             <button className="btn btn-primary" onClick={() => openFacebook(leader.facebookId)}>Facebook</button>
                         </div>
                     </div>
