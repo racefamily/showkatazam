@@ -5,7 +5,7 @@ const Freeclass = () => {
     // Define an array of YouTube video links
     const videoLinks = [
         "https://www.youtube.com/watch?v=eNszgsxEj14",
-        "https://www.youtube.com/watch?v=H7w46ExOFDI",
+        "https://www.youtube.com/watch?v=meOWV1w2GE8",
         "https://www.youtube.com/watch?v=bZNsHugQgz4",
         "https://www.youtube.com/watch?v=xxeN40KQyZY",
         "https://www.youtube.com/watch?v=foWu5HFFn4M",
