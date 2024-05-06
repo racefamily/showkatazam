@@ -5,10 +5,10 @@ const Freeclass = () => {
     // Define an array of YouTube video links
     const videoLinks = [
         "https://www.youtube.com/watch?v=eNszgsxEj14",
-        "https://www.youtube.com/watch?v=Ln9-GxyxwAc",
+        "https://www.youtube.com/watch?v=H7w46ExOFDI",
         "https://www.youtube.com/watch?v=bZNsHugQgz4",
         "https://www.youtube.com/watch?v=xxeN40KQyZY",
-        "https://www.youtube.com/watch?v=5WK_pmbACbo",
+        "https://www.youtube.com/watch?v=5cYQcjxP7xM&t=160s",
     ];
 
     // Define an array of topics for each video
