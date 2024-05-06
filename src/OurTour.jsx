@@ -52,7 +52,7 @@ const OurTour = () => {
     return (
         <div>
             <NavBar />
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                 {/* Map through the image sources array and render each image */}
                 {imageSources.map((src, index) => (
                     <div key={index} className="p-4 bg-gray-100 rounded-lg">
