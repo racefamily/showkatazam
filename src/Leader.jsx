@@ -73,6 +73,13 @@ const Leader = () => {
         }
         ,
         {
+            name: "Mohammad Morshedul Alam",
+            position: "Sales Officer",
+            image: "https://imgur.com/Z33snu2.jpg",
+            facebookId: "nbmorshed"
+        }
+        ,
+        {
             name: "Mohammad Nazim Uddin",
             position: "Sales Officer",
             image: "https://imgur.com/BwUW8iZ.jpg",
@@ -98,13 +105,6 @@ const Leader = () => {
             position: "Sales Officer",
             image: "https://imgur.com/83UmDRz.jpg",
             facebookId: "habibulislamsayem"
-        }
-        ,
-        {
-            name: "Mohammad Morshedul Alam",
-            position: "Sales Officer",
-            image: "https://imgur.com/Z33snu2.jpg",
-            facebookId: "nbmorshed"
         }
         ,
         {
