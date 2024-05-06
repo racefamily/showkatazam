@@ -42,7 +42,7 @@ const Leader = () => {
         {
             name: "Anika Khanam",
             position: "Senior Sales Officer",
-            image: "https://imgur.com/jBymXbu.jpg",
+            image: "https://imgur.com/wzHsryU.jpg",
             facebookId: "entrepreneuranika09"
         },
         {
