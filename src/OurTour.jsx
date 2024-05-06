@@ -57,7 +57,7 @@ const OurTour = () => {
                 {imageSources.map((src, index) => (
                     <div key={index} className="p-4 bg-gray-100 rounded-lg">
                         {/* Display image */}
-                        <img src={src} alt={`Image ${index + 1}`} className="w-full h-auto" />
+                        <img src={src} alt={`Image ${index + 1}`} className="w-full h-auto object-cover" style={{ aspectRatio: '16 / 9' }} />
                         {/* Image Topic */}
                         <p className="mt-2 text-xl font-semibold">{imageTopics[index]}</p>
                     </div>
