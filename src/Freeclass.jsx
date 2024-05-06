@@ -8,7 +8,7 @@ const Freeclass = () => {
         "https://www.youtube.com/watch?v=H7w46ExOFDI",
         "https://www.youtube.com/watch?v=bZNsHugQgz4",
         "https://www.youtube.com/watch?v=xxeN40KQyZY",
-        "https://www.youtube.com/watch?v=5cYQcjxP7xM&t=160s",
+        "https://www.youtube.com/watch?v=foWu5HFFn4M",
     ];
 
     // Define an array of topics for each video
