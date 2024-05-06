@@ -14,10 +14,10 @@ const Freeclass = () => {
     // Define an array of topics for each video
     const videoTopics = [
         "Job",
-        "Canva Design",
+        "Iron Lady of Pakistan",
         "Free Class",
         "Tajul Vhi",
-        "Entrepreneurship",
+        "Sonu Sharma Attitude",
     ];
 
     return (
