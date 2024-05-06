@@ -169,7 +169,7 @@ const Leader = () => {
     };
 
     return (
-        <div className="grid grid-cols-3 sm:grid-cols-2 lg:grid-cols-5 gap-4">
+        <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-5 gap-4">
             <div className="bg-violet-800 text-white col-span-full flex justify-center">
                 <h1 className="text-5xl font-bold my-8">Our Team</h1>
             </div>
