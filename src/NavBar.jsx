@@ -10,7 +10,11 @@ const NavBar = () => {
             <div className="flex items-center">
                 <a href="https://www.facebook.com/profile.php?id=61559198431989" target="_blank" rel="noopener noreferrer" className="mx-2">
                 </a>
-                <h1 className='text-3xl'>Race Family</h1>
+                <div className="text-center lg:text-left">
+                    <h1 className='text-3xl'>Race Family</h1>
+                    <h2 className="text-base">01869296343</h2>
+                    <h2 className="text-base">racefamilybd@gmail.com</h2>
+                </div>
             </div>
             <div className="flex-none">
                 <ul className="menu menu-horizontal px-1 text-2xl">
@@ -20,7 +24,7 @@ const NavBar = () => {
             <div className="social-icons flex items-center">
                 <a href="https://www.facebook.com/bdracefamily" target="_blank" rel="noopener noreferrer" className="mx-2">
                     <img src={FacebookIcon} alt="Facebook" className="w-8 h-8" /> {/* Increased size */}
-                </a> 
+                </a>
                 <a href="https://www.youtube.com/channel/UCSpg5S0UnoiCn8iVYEHtW3Q" target="_blank" rel="noopener noreferrer" className="mx-2">
                     <img src={YoutubeIcon} alt="Youtube" className="w-8 h-8" /> {/* Increased size */}
                 </a>

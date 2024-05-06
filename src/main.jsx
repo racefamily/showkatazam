@@ -5,7 +5,7 @@ import "./index.css";
 import Home from "./Home";
 import About from "./About";
 import Freeclass from "./Freeclass";
-import OurTour from "./OurTour";
+import OurTour from "./OurEvent";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -14,7 +14,7 @@ ReactDOM.render(
         <Route path="/" element={<Home />} />
         <Route path="/About" element={<About />} />
         <Route path="/FreeClass" element={<Freeclass />} />
-        <Route path="/OurTour" element={<OurTour />} />
+        <Route path="/OurEvent" element={<OurTour />} />
       </Routes>
     </Router>
   </React.StrictMode>,
