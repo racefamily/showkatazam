@@ -30,7 +30,7 @@ const Leader = () => {
         {
             name: "Tajul Islam",
             position: "Senior Sales Officer",
-            image: "https://imgur.com/hPdYQdJ.jpg",
+            image: "https://imgur.com/bU5jPNG.jpg",
             facebookId: "MdTajulIslam745"
         },
         {
@@ -84,6 +84,13 @@ const Leader = () => {
             position: "Sales Officer",
             image: "https://imgur.com/Z2hZ68P.jpg",
             facebookId: "profile.php?id=100082329159496"
+        }
+        ,
+        {
+            name: "Omar Mahabub",
+            position: "Sales Officer",
+            image: "https://imgur.com/3YA2xsi.jpg",
+            facebookId: "omar.mahabub.5"
         }
         ,
         {
