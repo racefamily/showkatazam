@@ -10,6 +10,12 @@ const Leader = () => {
             facebookId: "profile.php?id=100087167029370"
         },
         {
+            name: "Akash Kanti Das",
+            position: "Asst. Sales Manager",
+            image: "https://imgur.com/RVo1bqW.jpg",
+            facebookId: "akashenterpreneurfamily"
+        },
+        {
             name: "Sajal Islam Rabbi",
             position: "Asst. Sales Manager",
             image: "https://imgur.com/aCkQYlZ.jpg",
