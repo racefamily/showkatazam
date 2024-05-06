@@ -6,7 +6,7 @@ const Banner = () => {
           <div className="max-w-md">
             <h1 className="mb-5 text-5xl font-bold">Welcome <br /> Race Family</h1>
             <p className="mb-5">We Share, We Care</p>
-            <a href="/OurEvent" className="btn btn-active btn-secondary">OurEvent</a>
+            <a href="/OurEvent" className="btn btn-active btn-secondary">Our Event</a>
           </div>
         </div>
       </div>
