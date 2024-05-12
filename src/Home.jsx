@@ -1,5 +1,5 @@
 import React from 'react';
-import HNavBar from './HNavBar';
+import NavBar from './NavBar';
 import Footer from './Footer';
 import Sai from './Sai';
 import Freeclass from './Freeclass';
@@ -9,7 +9,7 @@ import Banner from './Banner';
 const Home = () => {
     return (
         <div>
-            <HNavBar></HNavBar>
+            <NavBar></NavBar>
             <br />
             <Banner></Banner>
             <br />

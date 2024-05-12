@@ -17,19 +17,38 @@ const NavBar = () => {
                 </div>
             </div>
             <div className="flex-none">
-                <ul className="menu menu-horizontal px-1 text-2xl">
-                    <li><Link to="/" className="btn btn-warning">Home</Link></li> {/* Home button */}
+                <ul className="gap-5  menu menu-horizontal px-1 text-2xl">
+                <li>
+                        <Link to="/Home" className="btn btn-warning">
+                            Home
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/FreeClass" className="btn btn-warning">
+                            Free Class
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/OurEvent" className="btn btn-warning">
+                            Our Event
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/RegisterForm" className="btn btn-warning">
+                            Register
+                        </Link>
+                    </li>
                 </ul>
             </div>
             <div className="social-icons flex items-center">
                 <a href="https://www.facebook.com/bdracefamily" target="_blank" rel="noopener noreferrer" className="mx-2">
-                    <img src={FacebookIcon} alt="Facebook" className="w-8 h-8" /> {/* Increased size */}
-                </a>
+                    <img src={FacebookIcon} alt="Facebook" className="w-6 h-6" />
+                </a> 
                 <a href="https://www.youtube.com/channel/UCSpg5S0UnoiCn8iVYEHtW3Q" target="_blank" rel="noopener noreferrer" className="mx-2">
-                    <img src={YoutubeIcon} alt="Youtube" className="w-8 h-8" /> {/* Increased size */}
+                    <img src={YoutubeIcon} alt="Youtube" className="w-6 h-6" />
                 </a>
                 <a href="https://www.facebook.com/groups/racefamilybd" target="_blank" rel="noopener noreferrer" className="mx-2">
-                    <img src={InstagramIcon} alt="Instagram" className="w-8 h-8" /> {/* Increased size */}
+                    <img src={InstagramIcon} alt="Instagram" className="w-6 h-6" />
                 </a>
             </div>
         </div>
