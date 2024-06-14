@@ -1,4 +1,4 @@
-import { initializeApp } from 'firebase/app';
+import { initializeApp, getApps } from 'firebase/app';
 import { getAuth, createUserWithEmailAndPassword } from 'firebase/auth';
 import { getFirestore, collection, addDoc } from 'firebase/firestore';
 import React, { useState } from 'react';
@@ -13,7 +13,9 @@ const firebaseConfig = {
 };
 
 // Firebase initialize
-const app = initializeApp(firebaseConfig);
+if (!getApps().length) {
+  initializeApp(firebaseConfig);
+}
 
 const RegisterForm = () => {
   const [registrationStatus, setRegistrationStatus] = useState(null);
@@ -39,21 +41,19 @@ const RegisterForm = () => {
     try {
         const auth = getAuth();
         const userCredential = await createUserWithEmailAndPassword(auth, email, password);
-        // User signed up successfully
         const user = userCredential.user;
 
         // Save user data to Firestore
         const db = getFirestore();
-        const userRef = await addDoc(collection(db, 'users'), {
-            name: name,
-            mobile: mobile,
-            email: email,
-            dob: dob,
-            coordinatorName: coordinatorName
-        });        
+        await addDoc(collection(db, 'users'), {
+            name,
+            mobile,
+            email,
+            dob,
+            coordinatorName
+        });
 
         setRegistrationStatus('User signed up successfully!');
-        // Reset form data after successful registration
         setFormData({
             name: '',
             mobile: '',
@@ -64,11 +64,9 @@ const RegisterForm = () => {
             coordinatorName: ''
         });
     } catch (error) {
-        // An error occurred during sign-up
-        const errorMessage = error.message;
-        setRegistrationStatus(errorMessage);
+        setRegistrationStatus(`Error: ${error.message}`);
     }
-}
+  }
 
   const handleInputChange = e => {
     setFormData({
