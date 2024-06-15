@@ -86,7 +86,7 @@ const Leader = () => {
             facebookId: "profile.php?id=100069573125851"
         },
         {
-            name: "Joya Chowdhury",
+            name: "Taznubar Nahar Chowdhury",
             position: "Sales Officer",
             image: "https://imgur.com/G6n5TCr.jpg",
             facebookId: "joyachydm"
@@ -125,13 +125,6 @@ const Leader = () => {
             position: "Sales Officer",
             image: "https://imgur.com/mRiGqSk.jpg",
             facebookId: "mdImran38"
-        }
-        ,
-        {
-            name: "MD Sajidul Islam",
-            position: "Sales Officer",
-            image: "https://imgur.com/qRAz1YW.jpg",
-            facebookId: "sajidulislam2006"
         }
         ,
         {
