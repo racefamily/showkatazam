@@ -46,12 +46,6 @@ const Leader = () => {
             facebookId: "entrepreneuranika09"
         },
         {
-            name: "Farhana Begum",
-            position: "Senior Sales Officer",
-            image: "https://imgur.com/OeSKmSC.jpg",
-            facebookId: "FARHANA2.Net"
-        },
-        {
             name: "Sakhawat Hossain",
             position: "Senior Sales Officer",
             image: "https://imgur.com/8Km40Py.jpg",
@@ -59,10 +53,37 @@ const Leader = () => {
         }
         ,
         {
+            name: "Farhana Begum",
+            position: "Senior Sales Officer",
+            image: "https://imgur.com/OeSKmSC.jpg",
+            facebookId: "FARHANA2.Net"
+        },
+        {
             name: "রোকাইয়া জাহান",
             position: "Senior Sales Officer",
             image: "https://imgur.com/16szPOK.jpg",
             facebookId: "Rukiajahan0"
+        }
+        ,
+        {
+            name: "Rafidul Islam",
+            position: "Sales Officer",
+            image: "https://imgur.com/qxJn96W.jpg",
+            facebookId: "rafidul.islam.7545"
+        }
+        ,
+        {
+            name: "Shajidul Ridoy",
+            position: "Sales Officer",
+            image: "https://imgur.com/Fmocf0c.jpg",
+            facebookId: "profile.php?id=100083633741342"
+        }
+        ,
+        {
+            name: "Mohammad Nazim Uddin",
+            position: "Sales Officer",
+            image: "https://imgur.com/BwUW8iZ.jpg",
+            facebookId: "profile.php?id=100069573125851"
         }
         ,
         {
@@ -80,13 +101,6 @@ const Leader = () => {
         }
         ,
         {
-            name: "Mohammad Nazim Uddin",
-            position: "Sales Officer",
-            image: "https://imgur.com/BwUW8iZ.jpg",
-            facebookId: "profile.php?id=100069573125851"
-        }
-        ,
-        {
             name: "Habibul Islam Sayem",
             position: "Sales Officer",
             image: "https://imgur.com/83UmDRz.jpg",
@@ -101,24 +115,10 @@ const Leader = () => {
         }
         ,
         {
-            name: "Md Md Imran",
+            name: "Md Imran",
             position: "Sales Officer",
             image: "https://imgur.com/mRiGqSk.jpg",
             facebookId: "mdImran38"
-        }
-        ,
-        {
-            name: "Shajidul Ridoy",
-            position: "Sales Officer",
-            image: "https://imgur.com/Fmocf0c.jpg",
-            facebookId: "profile.php?id=100083633741342"
-        }
-        ,
-        {
-            name: "Rafidul Islam",
-            position: "Sales Officer",
-            image: "https://imgur.com/qxJn96W.jpg",
-            facebookId: "rafidul.islam.7545"
         }
         ,
         {

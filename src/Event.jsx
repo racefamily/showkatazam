@@ -23,6 +23,8 @@ const OurTour = () => {
         "https://imgur.com/3cXBcoL.jpg",
         "https://imgur.com/burAgt4.jpg",
         "https://imgur.com/q3JbOQv.jpg",
+        "https://imgur.com/AoSgj8Q.jpg",
+        "https://imgur.com/hQseq1e.jpg",
     ];
 
     // Define an array of topics for each image
@@ -46,6 +48,8 @@ const OurTour = () => {
         "কক্সবাজার",
         "কক্সবাজার",
         "এম্বোসিয়া হোটেল",
+        "সেলিবেশন-২০২৪",
+        "কো-অডিনেটর",
         
     ];
 

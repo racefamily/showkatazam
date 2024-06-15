@@ -4,18 +4,23 @@ import Footer from './Footer';
 import Sai from './Sai';
 import Freeclass from './Freeclass';
 import Leader from './Leader';
+import Certificate from './Certificate';
+import PreviousJobs from './PreviousJobs';
 
 const Home = () => {
     return (
-        <div>
-            <NavBar></NavBar>
+        <>
+            <NavBar />
             <br />
-            <Sai></Sai>
+            <Sai />
             <br />
-            <Leader></Leader>
+            <Certificate />
+            <PreviousJobs></PreviousJobs>
             <br />
-            <Footer></Footer>
-        </div>
+            <Leader />
+            <br />
+            <Footer />
+        </>
     );
 };
 
