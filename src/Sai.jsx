@@ -31,7 +31,7 @@ const Sai = () => {
             <div className="hero-content flex-col lg:flex-row-reverse items-center">
                 <img src={saifulImgurLink} alt="BD Saiful Sarkar" className={`rounded-lg shadow-2xl mb-4 lg:mb-0 lg:mr-8 mx-auto lg:ml-0 w-${width} h-${height}`} style={{ width: `${width}px`, height: `${height}px` }} /> {/* Changed mx-auto to lg:ml-0 */}
                 <div className="text-left lg:text-left ml-4 mr-20 lg:mr-0"> {/* Changed text-center to text-left */}
-                    <h1 className="text-4xl md:text-5xl lg:text-6xl text-fuchsia-600 font-bold leading-tight">Saiful Islam</h1>
+                    <h1 className="text-4xl md:text-5xl lg:text-6xl text-fuchsia-600 font-bold leading-tight">BD Saiful Sarkar</h1>
                     <h1 className="text-lg md:text-2xl lg:text-3xl text-neutral-950 font-bold mt-4">CEO <br /> Harbour IT </h1>
                     <a href={facebookURL} target="_blank" rel="noopener noreferrer" className="btn btn-primary">Facebook</a>
                 </div>
