@@ -84,6 +84,12 @@ const Leader = () => {
             position: "Sales Officer",
             image: "https://imgur.com/BwUW8iZ.jpg",
             facebookId: "profile.php?id=100069573125851"
+        },
+        {
+            name: "Joya Chowdhury",
+            position: "Sales Officer",
+            image: "https://imgur.com/G6n5TCr.jpg",
+            facebookId: "joyachydm"
         }
         ,
         {
