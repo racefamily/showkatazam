@@ -15,7 +15,7 @@ const PreviousJobs = () => {
             <h2 className="text-2xl font-bold text-center mb-4">Previous Jobs</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 {previousCompanies.map((company, index) => (
-                    <div key={index} className="p-4 bg-blue-200 rounded-lg shadow-md flex flex-col items-center justify-center">
+                    <div key={index} className="p-4 bg-gray-200 rounded-lg shadow-md flex flex-col items-center justify-center">
                         <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center mb-4">
                             <img src={company.logo} alt={company.name} className="w-20 h-20 object-contain rounded-full" style={{ backgroundColor: '#FFFFFF' }} />
                         </div>
