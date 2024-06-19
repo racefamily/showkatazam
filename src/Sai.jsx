@@ -34,7 +34,7 @@ const Sai = () => {
                     <h1 className="text-4xl md:text-5xl lg:text-6xl text-fuchsia-600 font-bold leading-tight">Saiful Sarkar</h1>
                     <h1 className="text-lg md:text-xl lg:text-xl text-neutral-950 font-bold mb-4">Professional Freelancer</h1>
                     <p className="text-lg text-gray-700 mt-4">
-                    Saiful Sarkar can be the best choice for you to master digital marketing strategy. He can easily teach you about social media marketing, SEO, email marketing and web analytics. Saiful Sarkar helps individuals and businesses achieve their online goals. Join now to enhance your digital marketing skills and stay ahead in the competitive digital landscape.
+                    Saiful Sarkar can be the best choice for you to Mentor digital marketing strategy. He can easily teach you about social media marketing, SEO, email marketing and web analytics. Saiful Sarkar helps individuals and businesses achieve their online goals. Join now to enhance your digital marketing skills and stay ahead in the competitive digital landscape.
                     </p>
                     <a href={facebookURL} target="_blank" rel="noopener noreferrer" className="btn btn-primary mt-5">Facebook</a>
                 </div>
