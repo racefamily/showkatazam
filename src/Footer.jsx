@@ -14,19 +14,19 @@ const Footer = () => {
       <nav className="flex flex-col items-center">
   <h6 className="footer-title text-center">Social link</h6> 
   <div className="flex gap-4 mt-2">
-    <a href="https://www.facebook.com/bdsaifulsarkar" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.facebook.com/saifulsarkarpro" target="_blank" rel="noopener noreferrer">
       <img src={FacebookIcon} alt="Facebook" className="w-6 h-6" />
     </a>
     <a href="https://www.youtube.com/channel/UC7nCU4qlnBjbfxn9N8UR6cQ" target="_blank" rel="noopener noreferrer">
       <img src={YoutubeIcon} alt="Youtube" className="w-6 h-6" />
     </a>
-    <a href="https://www.instagram.com/bdsaifulsarkar/" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.instagram.com/saifulsarkarpro/" target="_blank" rel="noopener noreferrer">
       <img src={InstagramIcon} alt="Instagram" className="w-6 h-6" />
     </a>
     <a href="https://x.com/bdsaifulsarkar" target="_blank" rel="noopener noreferrer">
       <img src={xIcon} alt="X" className="w-6 h-6" />
     </a>
-    <a href="https://www.linkedin.com/in/bdsaifulsarkar/" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.linkedin.com/in/saifulsarkarpro/" target="_blank" rel="noopener noreferrer">
       <img src={LinkdenIcon} alt="LinkedIn" className="w-6 h-6" />
     </a>
   </div>
