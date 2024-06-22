@@ -13,7 +13,7 @@ const NavBar = () => {
                 <div className="text-center lg:text-left">
                     <h1 className='text-3xl'>Saiful Sarkar</h1>
                     <h2 className="text-base">01869296343</h2>
-                    <h2 className="text-base">bdsaifulsarkar@gmail.com</h2>
+                    <h2 className="text-base">saifsolutionbd@gmail.com</h2>
                 </div>
             </div>
             <div className="flex-none">
@@ -36,19 +36,19 @@ const NavBar = () => {
                 </ul>
             </div>
             <div className="social-icons flex items-center">
-                <a href="https://www.facebook.com/saifulsarkarpro" target="_blank" rel="noopener noreferrer" className="mx-2">
+                <a href="https://www.facebook.com/saifsolutionbd" target="_blank" rel="noopener noreferrer" className="mx-2">
                     <img src={FacebookIcon} alt="Facebook" className="w-6 h-6" />
                 </a> 
-                <a href="https://www.youtube.com/channel/UC7nCU4qlnBjbfxn9N8UR6cQ" target="_blank" rel="noopener noreferrer" className="mx-2">
+                <a href="https://www.youtube.com/channel/UC5WLCK7ObCHGbWCw0gsmHbw" target="_blank" rel="noopener noreferrer" className="mx-2">
                     <img src={YoutubeIcon} alt="Youtube" className="w-6 h-6" />
                 </a>
-                <a href="https://www.instagram.com/saifulsarkarpro/" target="_blank" rel="noopener noreferrer" className="mx-2">
+                <a href="https://www.instagram.com/saifulsarkar360/" target="_blank" rel="noopener noreferrer" className="mx-2">
                     <img src={InstagramIcon} alt="Instagram" className="w-6 h-6" />
                 </a>
                 <a href="https://x.com/bdsaifulsarkar" target="_blank" rel="noopener noreferrer" className="mx-2">
                     <img src={xIcon} alt="x" className="w-6 h-6" />
                 </a>
-                <a href="https://www.linkedin.com/in/saifulsarkarpro/" target="_blank" rel="noopener noreferrer" className="mx-2">
+                <a href="https://www.linkedin.com/in/saifsolutionbd" target="_blank" rel="noopener noreferrer" className="mx-2">
                     <img src={LinkdenIcon} alt="Linkden" className="w-6 h-6" />
                 </a>
             </div>
