@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <footer className="footer p-10 bg-neutral text-neutral-content">
       <aside>
-        <p>Saiful Sarkar<br/>01869-296343 <br /> saifsolutionbd@gmail.com </p>
+        <p>Saiful Sarkar<br/>01869-296343 <br /> bdsaifulsarkar@gmail.com </p>
       </aside> 
       <nav className="flex flex-col items-center">
   <h6 className="footer-title text-center">Social link</h6> 

@@ -13,7 +13,7 @@ const NavBar = () => {
                 <div className="text-center lg:text-left">
                     <h1 className='text-3xl'>Saiful Sarkar</h1>
                     <h2 className="text-base">01869296343</h2>
-                    <h2 className="text-base">saifsolutionbd@gmail.com</h2>
+                    <h2 className="text-base">bdsaifulsarkar@gmail.com</h2>
                 </div>
             </div>
             <div className="flex-none">
