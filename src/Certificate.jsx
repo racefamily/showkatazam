@@ -6,7 +6,7 @@ const Certificates = () => {
         "https://imgur.com/bUdwDXE.jpg",
         "https://imgur.com/Iz4nKbN.jpg",
         "https://imgur.com/Q70vgbm.jpg",
-        "https://imgur.com/eB6u3Nr.jpg",
+        "https://imgur.com/4A2OnFI.jpg",
     ];
 
     return (
