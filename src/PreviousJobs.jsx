@@ -4,7 +4,7 @@ const PreviousJobs = () => {
     const previousCompanies = [
         { name: "Anik Trading Corporation", position: "Sr. Manager", duration: "Jan 2008 - Dec 2012", logo: "https://imgur.com/gy1X81h.jpg" },
         { name: "Jeans Arrow Garments LTD", position: "HR. Officer", duration: "Apr 2012 - Aug 2014", logo: "https://imgur.com/3MWBV5p.jpg" },
-        { name: "Apparel Promoters LTD", position: "IT Officer (Payroll)", duration: "Sep 2014 - Mar 2020", logo: "https://imgur.com/FxGflwq.jpg" },
+        { name: "Apparel Promoters LTD", position: "IT Officer (Payroll)", duration: "Sep 2014 - Mar 2020", logo: "https://imgur.com/FZH6ECa.png" },
         { name: "Race Family", position: "Coordinator", duration: "Jan 2018 - Present", logo: "https://imgur.com/FZH6ECa.png" },
         { name: "Top Star Fashion LTD", position: "HR. Officer", duration: "Jan 2022 - Mar 2022", logo: "https://imgur.com/DIdEJRW.jpg" },
         { name: "Harbour IT & Training Institute", position: "Instructor", duration: "Jan 2023 - Present", logo: "https://imgur.com/FRWpLdP.jpg" },
