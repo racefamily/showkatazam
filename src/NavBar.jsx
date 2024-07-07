@@ -36,19 +36,19 @@ const NavBar = () => {
                 </ul>
             </div>
             <div className="social-icons flex items-center">
-                <a href="https://www.facebook.com/saifsolutionbd" target="_blank" rel="noopener noreferrer" className="mx-2">
+                <a href="https://www.facebook.com/sisarkarbd" target="_blank" rel="noopener noreferrer" className="mx-2">
                     <img src={FacebookIcon} alt="Facebook" className="w-6 h-6" />
                 </a> 
                 <a href="https://www.youtube.com/channel/UC5WLCK7ObCHGbWCw0gsmHbw" target="_blank" rel="noopener noreferrer" className="mx-2">
                     <img src={YoutubeIcon} alt="Youtube" className="w-6 h-6" />
                 </a>
-                <a href="https://www.instagram.com/saifulsarkar360/" target="_blank" rel="noopener noreferrer" className="mx-2">
+                <a href="https://www.instagram.com/sisarkarbd/" target="_blank" rel="noopener noreferrer" className="mx-2">
                     <img src={InstagramIcon} alt="Instagram" className="w-6 h-6" />
                 </a>
                 <a href="https://x.com/bdsaifulsarkar" target="_blank" rel="noopener noreferrer" className="mx-2">
                     <img src={xIcon} alt="x" className="w-6 h-6" />
                 </a>
-                <a href="https://www.linkedin.com/in/saifsolutionbd" target="_blank" rel="noopener noreferrer" className="mx-2">
+                <a href="https://www.linkedin.com/in/sisarkarbd" target="_blank" rel="noopener noreferrer" className="mx-2">
                     <img src={LinkdenIcon} alt="Linkden" className="w-6 h-6" />
                 </a>
             </div>
