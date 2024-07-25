@@ -11,9 +11,9 @@ const NavBar = () => {
         <div className="navbar bg-purple-950 text-white flex flex-col lg:flex-row justify-between items-center px-4 py-2">
             <div className="flex items-center">
                 <div className="text-center lg:text-left">
-                    <h1 className='text-3xl'>Saiful Sarkar</h1>
-                    <h2 className="text-base">01869296343</h2>
-                    <h2 className="text-base">bdsaifulsarkar@gmail.com</h2>
+                    <h1 className='text-3xl'>Tirza Tech</h1>
+                    <h2 className="text-base">+880 01825 015705</h2>
+                    <h2 className="text-base">tirzatech@gmail.com</h2>
                 </div>
             </div>
             <div className="flex-none">
@@ -36,7 +36,7 @@ const NavBar = () => {
                 </ul>
             </div>
             <div className="social-icons flex items-center">
-                <a href="https://www.facebook.com/sisarkarbd" target="_blank" rel="noopener noreferrer" className="mx-2">
+                <a href="https://www.facebook.com/profile.php?id=61563188072871" target="_blank" rel="noopener noreferrer" className="mx-2">
                     <img src={FacebookIcon} alt="Facebook" className="w-6 h-6" />
                 </a> 
                 <a href="https://www.youtube.com/channel/UC5WLCK7ObCHGbWCw0gsmHbw" target="_blank" rel="noopener noreferrer" className="mx-2">

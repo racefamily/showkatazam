@@ -9,12 +9,12 @@ const Footer = () => {
   return (
     <footer className="footer p-10 bg-neutral text-neutral-content">
       <aside>
-        <p>Saiful Sarkar<br/>01869-296343 <br /> bdsaifulsarkar@gmail.com </p>
+        <p>Tirza Tech<br/>+880 1825 015705 <br /> tirzatech@gmail.com </p>
       </aside> 
       <nav className="flex flex-col items-center">
   <h6 className="footer-title text-center">Social link</h6> 
   <div className="flex gap-4 mt-2">
-    <a href="https://www.facebook.com/sisarkarbd" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.facebook.com/profile.php?id=61563188072871" target="_blank" rel="noopener noreferrer">
       <img src={FacebookIcon} alt="Facebook" className="w-6 h-6" />
     </a>
     <a href="https://www.youtube.com/channel/UC5WLCK7ObCHGbWCw0gsmHbw" target="_blank" rel="noopener noreferrer">
