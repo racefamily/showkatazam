@@ -1,21 +1,17 @@
 import React from 'react';
 import NavBar from './NavBar';
+import Banner from './Banner';
 import Footer from './Footer';
-import Sai from './Sai';
-import Freeclass from './Freeclass';
 import Leader from './Leader';
-import Certificate from './Certificate';
-import PreviousJobs from './PreviousJobs';
+import Admin from './Admin';
 
 const Home = () => {
     return (
         <>
             <NavBar />
+            <Banner />
             <br />
-            <Sai />
-            <br />
-            <Certificate />
-            <PreviousJobs></PreviousJobs>
+            <Admin /> 
             <br />
             <Leader />
             <br />

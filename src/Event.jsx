@@ -1,7 +1,7 @@
 import React from 'react';
 import NavBar from './NavBar';
 
-const OurTour = () => {
+const Event = () => {
     // Define an array of images
     const imageSources = [
         "https://imgur.com/3p0ZMvH.jpg",
@@ -69,4 +69,4 @@ const OurTour = () => {
     );
 };
 
-export default OurTour;
+export default Event;
