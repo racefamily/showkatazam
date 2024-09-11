@@ -13,26 +13,35 @@ const NavBar = () => {
                 </div>
             </div>
             <div className="flex-none">
-                <ul className="gap-5  menu menu-horizontal px-1 text-2xl">
-                <li>
+                <ul className="gap-5 menu menu-horizontal px-1 text-2xl">
+                    <li>
                         <Link to="/Home" className="btn btn-warning">
                             Home
                         </Link>
                     </li>
                     <li>
                         <Link to="/Event" className="btn btn-warning">
-                           Our Event
+                            Our Event
                         </Link>
                     </li>
                 </ul>
             </div>
+
+            {/* Links between Menu and Social Links */}
+            <div className="flex gap-4 my-2 lg:my-0">
+                <a href="https://forms.gle/5xVZh1d13GNWUD4C7" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
+                    Registration
+                </a>
+                <a href="https://docs.google.com/spreadsheets/d/15GSYPpMFy6FuchIPZXSFlsOHujxaVAe4ufG-ieeusHA/edit?usp=sharing" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">
+                    List
+                </a>
+            </div>
+
+            {/* Social Icons */}
             <div className="social-icons flex items-center">
                 <a href="https://www.facebook.com/groups/akbarshahbdg" target="_blank" rel="noopener noreferrer" className="mx-2">
                     <img src={FacebookIcon} alt="Facebook" className="w-6 h-6" />
                 </a>
-             
-             
-              
             </div>
         </div>
     );

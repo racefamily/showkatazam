@@ -5,19 +5,22 @@ const Admin = () => {
     const leaders = [
         {
             name: "Saiful Islam",
-            position: "Admin",
+            position: "01869296343",
+            bg:"A+",
             image: "https://imgur.com/Ol9aFrd.jpg",
             facebookId: "saifullahbd0"
         },
         {
             name: "Nazrul Sarkar",
-            position: "Admin",
+            position: "01846892827",
+            bg:"O+",
             image: "https://imgur.com/VaTow0Q.jpg",
             facebookId: "nazrul853"
         },
         {
             name: "Muhammad Rokib Hasan",
-            position: "Admin",
+            position: "01869296343",
+            bg:"A+",
             image: "https://imgur.com/D3UL0N0.jpg",
             facebookId: "muhammad.rokibhasan.98"
         }
@@ -46,6 +49,7 @@ const Admin = () => {
                     <div className="card-body items-center text-center">
                         <h2 className="card-title">{leader.name}</h2>
                         <p>{leader.position}</p>
+                        <p>{leader.bg}</p>
                         <div className="card-actions">
                             <button className="btn btn-primary" onClick={() => openFacebook(leader.facebookId)}>Facebook</button>
                         </div>
