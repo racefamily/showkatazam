@@ -21,7 +21,7 @@ const Admin = () => {
             name: "Muhammad Rokib Hasan",
             position: "01879389333",
             bg:"B+",
-            image: "https://imgur.com/kJYqgYf.jpg",
+            image: "https://imgur.com/3bZFTFI.jpg",
             facebookId: "muhammad.rokibhasan.98"
         }
         // Add more leaders as needed
