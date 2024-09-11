@@ -27,7 +27,7 @@ const Leader = () => {
         {
             name: "Rahad Mahmud",
             position: "01676576300",
-            bg: "A+",
+            bg: "B+",
             image: "https://imgur.com/yDpK8An.jpg",
             facebookId: "kamrurshakir77"
         },

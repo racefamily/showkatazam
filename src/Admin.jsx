@@ -13,15 +13,15 @@ const Admin = () => {
         {
             name: "Nazrul Sarkar",
             position: "01846892827",
-            bg:"O+",
+            bg:"O-",
             image: "https://imgur.com/VaTow0Q.jpg",
             facebookId: "nazrul853"
         },
         {
             name: "Muhammad Rokib Hasan",
-            position: "01869296343",
-            bg:"A+",
-            image: "https://imgur.com/D3UL0N0.jpg",
+            position: "01879389333",
+            bg:"B+",
+            image: "https://imgur.com/xaWR1j0.jpg",
             facebookId: "muhammad.rokibhasan.98"
         }
         // Add more leaders as needed
