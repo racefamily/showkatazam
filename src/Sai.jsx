@@ -32,9 +32,11 @@ const Sai = () => {
                 <img src={saifulImgurLink} alt="Race Family" className={`rounded-lg shadow-2xl mb-4 lg:mb-0 lg:mr-8 mx-auto lg:ml-0 w-${width} h-${height}`} /> {/* Changed mx-auto to lg:ml-0 */}
                 <div className="text-left lg:text-left ml-4 mr-20 lg:mr-0"> {/* Changed text-center to text-left */}
                     <h1 className="text-4xl md:text-5xl lg:text-6xl text-fuchsia-600 font-bold leading-tight">Showkat Azam</h1>
-                    <h1 className="text-lg md:text-1xl lg:text-1xl text-neutral-950 mt-4">সাবেক যুগ্ম সম্পাদক : বাংলাদেশ জাতীয়তাবাদী ছাত্রদল, কেন্দ্রীয় কমিটি। <br />
+                    <h1 className="text-lg md:text-1xl lg:text-1xl mt-4 text-blue-500">
+                        সাবেক যুগ্ম সম্পাদক : বাংলাদেশ জাতীয়তাবাদী ছাত্রদল, কেন্দ্রীয় কমিটি। <br />
                         সাবেক সহ-সভাপতি : বাংলাদেশ জাতীয়তাবাদী সেচ্ছাসেবক দল, চট্টগ্রাম বিভাগ। <br />
-                        বাংলাদেশ জাতীয়তাবাদী দল (বিএনপি), চট্টগ্রাম মহানগর। </h1>
+                        বাংলাদেশ জাতীয়তাবাদী দল (বিএনপি), চট্টগ্রাম মহানগর।
+                        </h1>
                     <a href={facebookURL} target="_blank" rel="noopener noreferrer" className="btn btn-primary">Facebook</a>
                 </div>
             </div>
